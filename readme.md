@@ -93,7 +93,7 @@ Data/
 Then update the video path in `app.py` (or wherever the video source is defined):
 
 ```python
-video_path = "Data/traffic.mp4"
+video_path = "https://drive.google.com/file/d/1Fqnp9iLFKCDASOSiIxRg9-O0YIMBgex0/view?usp=sharing"
 ```
 
 You can also use a webcam by setting:
@@ -120,7 +120,7 @@ Make sure all paths (models and video) are correctly set before running.
 
 ```
 Code/
-├── core/               # Main pipeline and configuration
+├── core/              # Main pipeline and configuration
 ├── detection/         # Detection modules (vehicle, helmet, etc.)
 ├── tracking/          # Tracking logic
 ├── violations/        # Violation detection modules
