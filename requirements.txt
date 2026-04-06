@@ -1,0 +1,8 @@
+opencv-python
+numpy
+ultralytics
+easyocr
+torch
+torchvision
+scikit-image
+pandas
